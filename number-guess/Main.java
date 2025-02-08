@@ -36,7 +36,7 @@ public class Main {
         }
         Arrays.sort(array);
         System.out.println("Your numbers are:");
-        for (int i = 0; i < attempt; i++) {
+        for (int i = attempt-1; i >= 0; i--) {
             System.out.print(array[i] + " ");
         }
     }
